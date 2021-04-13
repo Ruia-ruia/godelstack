@@ -65,5 +65,9 @@ main(int argc, char *argv[])
     push(&stack, 6);
     ret = pop(&stack);
     printf("%d\n", ret);
+    ret = pop(&stack);
+    printf("%d\n", ret);
+    ret = pop(&stack);
+    printf("%d\n", ret);
     return 0;
 }
