@@ -1,3 +1,8 @@
+/*
+    The idea is to use unique prime factorisation 
+    along with the largest (latest) prime factors to encode/decode 
+    pushed numbers into a larger composite.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
