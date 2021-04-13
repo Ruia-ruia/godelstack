@@ -21,7 +21,8 @@ struct Stack {
     int primeindex;
 };
 
-int factors(int n, struct Stack *stack)
+int 
+factors(int n, struct Stack *stack)
 {
     int mul = primes[stack->primeindex - 1];
     int ret = 0;
